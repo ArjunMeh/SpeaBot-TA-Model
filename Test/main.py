@@ -4,13 +4,14 @@ from submodel2 import main
 from submodel3 import mark
 
 file_name =  'data.txt'
-x = transcribe_streaming('woman1_wb.wav')
+x = transcribe_streaming('voice1.wav')
 print(x)
 text_file = open(file_name, "w")
 text_file.write(x)
-
-a = main('test.txt')
+text_file.close()
+a = main(file_name)
 al = list(dict.fromkeys(a))
-print(al)
-marks =  mark(file_name)
+for i in al:
+    print(i)
+mark(file_name)
 

@@ -1,1 +1,1 @@
-mister medicine to animals is frequently a very difficult matter and yet sometimes it's necessary to do so
+last week jeffrey hanson and his team published two papers that introduced a completely new type of neural network based on so called capsules in addition to that the team published an algorithm called dynamic crowding between caps

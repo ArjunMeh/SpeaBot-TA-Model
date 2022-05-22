@@ -132,7 +132,7 @@ def main(text_input_path):
     #verbose mode is activated when we give -v as argument.
     global verbose 
     verbose = False
-
+    text_input_path = 'test.txt'
     # Set verbose if -v option is given as argument.
     if len(sys.argv) >= 3: 
         if sys.argv[2] == '-v':
